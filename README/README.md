@@ -2,14 +2,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[README/Images/RTdiagram.png](https://github.com/emadans/Project-1/blob/c52972a2f5cc25566aa7a3c1404d84690eb73be1/README/Images/RTdiagram.png)
+[Images/RTdiagram.png](https://github.com/emadans/Project-1/blob/c52972a2f5cc25566aa7a3c1404d84690eb73be1/README/Images/RTdiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Text/install_elk_ymlplaybook.yml
-  - Text/install_filebeat_ymlplaybook.yml
-  - Text/install_metricbeat_ymlplaybook.yml
-  - Text/setup_DVWA_ymlplaybook.yml
+  - [Playbooks/install_elk_ymlplaybook.yml](https://github.com/emadans/Project-1/blob/db7119e3960792334c579c00d44d4f4494394bb1/README/Playbooks/install_elk_ymlplaybook.yml)
+  - [Playbooks/install_filebeat_ymlplaybook.yml](https://github.com/emadans/Project-1/blob/db7119e3960792334c579c00d44d4f4494394bb1/README/Playbooks/install_filebeat_ymlplaybook.yml)
+  - [Playbooks/install_metricbeat_ymlplaybook.yml](https://github.com/emadans/Project-1/blob/db7119e3960792334c579c00d44d4f4494394bb1/README/Playbooks/install_metricbeat_ymlplaybook.yml)
+  - [Playbooks/setup_DVWA_ymlplaybook.yml](https://github.com/emadans/Project-1/blob/db7119e3960792334c579c00d44d4f4494394bb1/README/Playbooks/setup_DVWA_ymlplaybook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -68,7 +68,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Images/docker_ps_output.png
+[Images/docker_ps_output.png](https://github.com/emadans/Project-1/blob/db7119e3960792334c579c00d44d4f4494394bb1/README/Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: 
